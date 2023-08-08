@@ -29,6 +29,16 @@
 		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" />
 		<PackageReference Include="Uno.WinUI.RemoteControl" Condition="'$(Configuration)'=='Debug'" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" />
+
+		<PackageReference Include="Syncfusion.Maui.Core" />
+		<PackageReference Include="Syncfusion.Maui.Charts" />
+		<PackageReference Include="Syncfusion.Maui.TabView" />
+
+		<PackageReference Include="CommunityToolkit.Mvvm"/>
+	</ItemGroup>
+
 	<Choose>
 		<When Condition="$(IsAndroid)">
 			<ItemGroup>
