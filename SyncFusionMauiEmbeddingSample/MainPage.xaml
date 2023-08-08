@@ -7,14 +7,14 @@
 	mc:Ignorable="d"
 	Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-	<StackPanel HorizontalAlignment="Center"
-				VerticalAlignment="Center">
-		<TextBlock AutomationProperties.AutomationId="HelloTextBlock"
+	<Grid HorizontalAlignment="Stretch"
+		  VerticalAlignment="Stretch">
+		<!--<TextBlock AutomationProperties.AutomationId="HelloTextBlock"
 					Text="Hello Uno Platform" 
-					HorizontalAlignment="Center" />
+					HorizontalAlignment="Center" />-->
 		<embed:MauiHost x:Name="MauiHostElement"
-						xmlns:embed="using:Uno.Extensions.Maui">
+						xmlns:embed="using:Uno.Extensions.Maui" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
 			<controls:EmbeddedControl xmlns:controls="using:SyncFusionMauiEmbeddingSample.MauiControls" />
 		</embed:MauiHost>
-	</StackPanel>
+	</Grid>
 </Page>

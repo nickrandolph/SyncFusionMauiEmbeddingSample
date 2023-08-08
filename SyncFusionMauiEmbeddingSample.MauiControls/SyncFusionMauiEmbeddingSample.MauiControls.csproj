@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows')) or '$(EnableWindowsTargeting)' == 'true'">$(TargetFrameworks);net7.0-windows10.0.19041</TargetFrameworks>
@@ -14,5 +14,7 @@
 		<PackageReference Include="Syncfusion.Maui.Core" />
 		<PackageReference Include="Syncfusion.Maui.Charts" />
 		<PackageReference Include="Syncfusion.Maui.TabView" />
+
+		<PackageReference Include="CommunityToolkit.Mvvm"/>
 	</ItemGroup>
 </Project>
