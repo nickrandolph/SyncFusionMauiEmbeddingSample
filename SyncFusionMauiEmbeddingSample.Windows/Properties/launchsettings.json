@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"SyncFusionMauiEmbeddingSample.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"SyncFusionMauiEmbeddingSample.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}

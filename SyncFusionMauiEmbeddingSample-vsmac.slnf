@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "path": "SyncFusionMauiEmbeddingSample.sln",
+    "projects": [
+      "SyncFusionMauiEmbeddingSample.Mobile\\SyncFusionMauiEmbeddingSample.Mobile.csproj",
+      "SyncFusionMauiEmbeddingSample.Server\\SyncFusionMauiEmbeddingSample.Server.csproj",
+      "SyncFusionMauiEmbeddingSample.Base\\SyncFusionMauiEmbeddingSample.Base.csproj",
+      "SyncFusionMauiEmbeddingSample\\SyncFusionMauiEmbeddingSample.csproj"
+    ]
+  }
+}
